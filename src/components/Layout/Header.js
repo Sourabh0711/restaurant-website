@@ -33,6 +33,12 @@ const Header = () => {
                 <p>Indian Cuisine</p>
               </div>
               <span className="price">₹15</span>
+              {/* New Form Section */}
+              <form className="menu-form">
+                <label htmlFor="paneer-quantity">Amount</label>
+                <input id="paneer-quantity" type="number" min="1" max="10" defaultValue="1" />
+                <button type="button">+ Add</button>
+              </form>
             </li>
             <li className="menu-item">
               <div>
@@ -40,6 +46,12 @@ const Header = () => {
                 <p>Indian Cuisine</p>
               </div>
               <span className="price">₹15</span>
+              {/* New Form Section */}
+              <form className="menu-form">
+                <label htmlFor="chole-quantity">Amount</label>
+                <input id="chole-quantity" type="number" min="1" max="10" defaultValue="1" />
+                <button type="button">+ Add</button>
+              </form>
             </li>
             <li className="menu-item">
               <div>
@@ -47,6 +59,12 @@ const Header = () => {
                 <p>Indian Cuisine</p>
               </div>
               <span className="price">₹15</span>
+              {/* New Form Section */}
+              <form className="menu-form">
+                <label htmlFor="palak-paneer-quantity">Amount</label>
+                <input id="palak-paneer-quantity" type="number" min="1" max="10" defaultValue="1" />
+                <button type="button">+ Add</button>
+              </form>
             </li>
             <li className="menu-item">
               <div>
@@ -54,6 +72,12 @@ const Header = () => {
                 <p>Indian Cuisine</p>
               </div>
               <span className="price">₹15</span>
+              {/* New Form Section */}
+              <form className="menu-form">
+                <label htmlFor="kofte-quantity">Amount</label>
+                <input id="kofte-quantity" type="number" min="1" max="10" defaultValue="1" />
+                <button type="button">+ Add</button>
+              </form>
             </li>
           </ul>
         </div>

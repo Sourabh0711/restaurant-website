@@ -1,6 +1,8 @@
 import React from 'react';
 import Header from '../Layout/Header';  // Move up one level, then go to Layout folder
 import './App.css';
+
+
 function App() {
   return (
     <>
